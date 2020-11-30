@@ -1,0 +1,51 @@
+.list {
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+
+.list > li:last-child {
+  margin-bottom: 0;
+}
+
+.item {
+  display: flex;
+  background-color: #fff;
+  width: 400px;
+  border-radius: 7px;
+  box-shadow: 0 0 6px 0 #adacac;
+  align-items: center;
+  padding: 8px 14px;
+  margin: 0 auto 10px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.status {
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+  border-radius: 50%;
+}
+
+.statusOn {
+  background-color: #00ff00;
+}
+
+.statusOff {
+  background-color: #ff0000;
+}
+
+.avatar {
+  height: 90px;
+  width: 90px;
+  border-radius: 10px;
+  margin-right: 14px;
+}
+
+img {
+  display: block;
+  height: auto;
+}
